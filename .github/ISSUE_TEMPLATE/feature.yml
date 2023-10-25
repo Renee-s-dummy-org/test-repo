@@ -1,0 +1,17 @@
+name: Feature Request
+description: Feature request form
+type: Feature
+labels: ["feature"]
+assignees:
+  - reneexeener
+body:
+  - type: dropdown
+    id: Priority
+    attributes:
+      label: Priority
+      description: What's the impact?
+      options:
+        - P0
+        - P1
+        - P2
+        - P3
